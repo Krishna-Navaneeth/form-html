@@ -1,0 +1,176 @@
+<html>
+
+    <head>
+        <title>Registration Form</title>
+        <style>
+                
+form {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 520px;
+    background: #d6d5eb;;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #d4d6d9;
+}
+
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+input[type="text"],
+input[type="phone"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="phone"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+        </style>
+    </head>
+    <body style="background: linear-gradient(to top right,#fc2c77 0%,#6c4079 100%);">
+        <h1 style=text-align:center>Registration Form In Html</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone Number:
+                    </td>
+                    <td>
+                        <input type="phone" placeholder="9867******">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Id:
+                    </td>
+                    <td>
+                        <input type="email" placeholder="example1@*8">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password:
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Password">
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date of Birth:
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hobbies:
+                </td>
+                <td>
+                    <input type="checkbox"singing>singing
+                    <input type="checkbox"Dancing>Dancing
+                    <input type="checkbox"playing>playing
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Education Qualification:
+                </td>
+                <td>
+                    <select>
+                        <option>Select Option</option>
+                        <option>10+2</option>
+                        <option>Graduation</option>
+                        <option>Postgraduation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address:
+                </td>
+                <td>
+                    <textarea rows="5" col="17" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+            </table>
+        </form>
+        </body>
+</html>
